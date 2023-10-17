@@ -10,7 +10,7 @@ def biggest_number(a, b):
         return b
 
 
-print(biggest_number(90, 25))
+# print(biggest_number(90, 25))
 
 # Exercício 02: Calcule a média aritmética dos valores contidos em uma lista.
 # Exercise 02: Calculate the average of the values in a list
@@ -24,7 +24,7 @@ def calculate_average(numbers):
     return sum / len(numbers)
 
 
-print(calculate_average([2, 3, 4, 5, 6]))
+# print(calculate_average([2, 3, 4, 5, 6]))
 
 # Exercício 03: Faça uma função que, dado um valor n qualquer, tal que n > 1,
 # imprima na tela um quadrado feito de asteriscos de lado de tamanho n.
@@ -37,7 +37,7 @@ def print_square(n):
         print(n * '* ')
 
 
-print(print_square(5))
+# print(print_square(5))
 
 #  Exercício 04: Crie uma função que receba uma lista de nomes e retorne o nome
 # com a maior quantidade de caracteres.
@@ -103,3 +103,15 @@ def check_triangle(a, b, c):
 
 
 # print(check_triangle(5, 6, 7))
+
+# Exercício 02: Faça um programa que, dado um valor n qualquer, tal que n > 1,
+# imprima na tela um triângulo retângulo com n asteriscos de base.
+# Por exemplo, para n = 5 o triângulo terá 5 asteriscos na base:
+
+def print_triangle(n):
+    # o loop itera de 1 até n
+    for row in range(1, n + 1):
+        print(row * '* ')
+
+
+print_triangle(5)
