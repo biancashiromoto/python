@@ -104,9 +104,10 @@ def check_triangle(a, b, c):
 
 # print(check_triangle(5, 6, 7))
 
-# Exercício 02: Faça um programa que, dado um valor n qualquer, tal que n > 1,
+# Exercício 07: Crie uma função que, dado um valor n qualquer, tal que n > 1,
 # imprima na tela um triângulo retângulo com n asteriscos de base.
-# Por exemplo, para n = 5 o triângulo terá 5 asteriscos na base:
+# Exercise 07: Create a function  that, given any value n such that n > 1, 
+# prints on the screen a right triangle made of asterisks with the base length of size n
 
 def print_triangle(n):
     # o loop itera de 1 até n
