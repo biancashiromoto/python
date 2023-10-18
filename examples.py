@@ -87,3 +87,63 @@
 # with open("failed_students.txt", "w") as failed_students_file:
 #     for failed_student in failed_students:
 #         failed_students_file.write(f"{failed_student}\n")
+
+# -----------------------------------------------------
+
+
+# import csv
+
+# with open("graduacao_unb.csv", encoding="utf-8") as file:
+#     graduacao_reader = csv.reader(file, delimiter=",", quotechar='"')
+
+#     header, *data = graduacao_reader
+
+# print(data)
+
+# -----------------------------------------------------
+
+import csv
+
+# Abre o arquivo CSV para leitura, especificando o delimitador (",") e o caractere de citação ('"')
+with open("graduacao_unb.csv", encoding="utf8") as file:
+    # Cria um objeto leitor de CSV
+    graduacao_reader = csv.reader(file, delimiter=",", quotechar='"')
+    # Usando o conceito de desempacotamento, lê o cabeçalho (primeira linha) e o restante dos dados (restantes das linhas)
+    header, *data = graduacao_reader
+
+# Cria um dicionário vazio para agrupar por departamento
+group_by_department = {}
+
+# Itera sobre as linhas de dados
+for row in data:
+    # Obtém o nome do departamento da coluna 16 (índice 15 no Python, pois a indexação começa em 0)
+    department = row[15]
+    
+    # Se o departamento não está no dicionário, inicializa com 0
+    if department not in group_by_department:
+        group_by_department[department] = 0
+    # Incrementa a contagem de cursos para o departamento
+    group_by_department[department] += 1
+
+# Escreve o relatório em um novo arquivo .csv
+
+# Abre um arquivo para escrita
+with open("department_report.csv", "w", encoding = "utf-8") as file:
+    # Cria um objeto escritor de CSV
+    writer = csv.writer(file)
+
+    # Escreve o cabeçalho no arquivo
+    headers = [
+        "Departamento",
+        "Total de Cursos",
+    ]
+    writer.writerow(headers)
+
+    # Escreve as linhas de dados
+    # método items() retorna uma visualização dos pares chave-valor no dicionário como uma sequência de tuplas
+    for department, grades in group_by_department.items():
+        row = [
+            department,
+            grades,
+        ]
+        writer.writerow(row)
