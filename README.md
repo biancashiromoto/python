@@ -11,7 +11,8 @@ This repository contains some projects developed for training my Python skills.
 > ⚠️ Make sure you have Python installed
 
 1. Clone the repository `git@github.com:biancashiromoto/python.git`
-2. Using the terminal, run the Python script `python3 <script-name>.py`
+2. Navigate to the branch you want to explore `git checkout <branch-name>`
+3. Using the terminal, run the Python script `python3 <script-name>.py`
 
 > 💬 If you have any suggestions or feedbacks, I would be happy to recieve them through <a href="https://www.linkedin.com/in/bshiromoto/" target="_blank">LinkedIn</a>!
 
@@ -28,7 +29,8 @@ Este repositório contém alguns projetos desenvolvidos para treinar minhas habi
 > ⚠️ Certifique-se de ter o Python instalado.
 
 1. Clone o repositório `git@github.com:biancashiromoto/python.git`
-2. Usando o terminal, rode o script Python `python3 <script-name>.py`
+2. Navegue até a branch que vocẽ quer explorar `git checkout <nome-da-branch>`
+3. Usando o terminal, rode o script Python `python3 <nome-do-script>.py`
 
 > 💬 Se tiver alguma sugestão ou feedback, eu ficaria feliz em recebê-los pelo meu <a href="https://www.linkedin.com/in/bshiromoto/" target="_blank">LinkedIn</a>!
 
