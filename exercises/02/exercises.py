@@ -94,7 +94,7 @@ def fizz_buzz(n):
     return result
 
 
-print(fizz_buzz(5))
+# print(fizz_buzz(5))
 
 # -----------------------------------------------------
 
@@ -107,4 +107,4 @@ def validate_email(email):
         )
     
 
-print(validate_email("email@email.com"))
+# print(validate_email("email@email.com"))
