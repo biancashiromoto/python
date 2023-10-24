@@ -14,7 +14,7 @@ This repository contains some projects developed for training my Python skills.
 2. Navigate to the branch you want to explore `git checkout <branch-name>`
 3. Using the terminal, run the Python script `python3 <script-name>.py`
 
-> 💬 If you have any suggestions or feedbacks, I would be happy to recieve them through <a href="https://www.linkedin.com/in/bshiromoto/" target="_blank">LinkedIn</a>!
+> 💬 If you have any suggestions or feedbacks, I would be happy to receive them through <a href="https://www.linkedin.com/in/bshiromoto/" target="_blank">LinkedIn</a>!
 
 <hr>
 
