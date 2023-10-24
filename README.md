@@ -2,7 +2,7 @@
 
 ## 🇺🇸 About this project
 
-This project consists in a set of programming challenges solved using Python, as well as their unit tests. The corresponding challenge files and the challenge's description are in the `challenges` directory, and the tests files are in the `tests` directory.
+This project consists in a set of programming challenges solved using Python, as well as their unit tests. The corresponding challenge files and the challenge's description are in the `challenges` directory.
 
 ## 📝 Installation
 1. Clone the repository `git@github.com:biancashiromoto/python.git`
@@ -15,7 +15,7 @@ This project consists in a set of programming challenges solved using Python, as
 
 ## 🇧🇷 Sobre este projeto
 
-Este projeto consiste em uma coleção de desafios de programação resolvidos usando Python, bem como seus testes unitários. Os arquivos correspondentes a cada desafio e sua descrição estão no diretório `challenges`, e os arquivos de teste estão no diretório `tests`.
+Este projeto consiste em uma coleção de desafios de programação resolvidos usando Python, bem como seus testes unitários. Os arquivos correspondentes a cada desafio e sua descrição estão no diretório `challenges`.
 
 ## 📝 Instalação
 1. Clone o repositório `git@github.com:biancashiromoto/python.git`
