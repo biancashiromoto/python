@@ -108,3 +108,19 @@ def validate_email(email):
     
 
 # print(validate_email("email@email.com"))
+
+# -----------------------------------------------------
+
+
+# Crie um algoritmo recursivo para contar quantos números pares existem em uma sequência numérica (1 a n).
+
+def count_even(n):
+    if (n == 1):
+        return 0
+    elif (n % 2 == 0):
+        return 1 + count_even(n - 1)
+    else:
+        return count_even(n - 1)
+
+
+# print(count_even(5))
