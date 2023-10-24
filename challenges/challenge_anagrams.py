@@ -1,3 +1,7 @@
+# Desafio 04: Desenvolva um algoritmo que receba duas strings, as ordene e identifique se uma é anagrama da outra. O retorno da função deve ser uma tupla (com as duas strings ordenadas) e um booleano indicando se são anagramas ou não. O algoritmo deve ser case insensitive.
+# Challenge 04: Develop an algorithm that takes two strings, sort them and identify if they are an anagram of the other. The return must be a tuple (containing the two sorted strings) and a boolean, indicating if they are anagrams or not. The algorithm must be case insensitive.
+
+
 def is_anagram(first_string, second_string):
     sorted_first_string = sort_string(first_string.lower())
     sorted_second_string = sort_string(second_string.lower())
