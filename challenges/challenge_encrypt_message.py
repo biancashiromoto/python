@@ -1,3 +1,6 @@
+# Desafio 02: Esta função veio pronta no projeto - Desenvolva os testes para a função encrypt_message. O teste está no diretório /tests
+# Challenge 02: This function came ready in the project - Develop the tests for the encrypt_message function. The test file is in the directory /tests
+
 def encrypt_message(message: str, key: int):
 
     if not isinstance(key, int):
