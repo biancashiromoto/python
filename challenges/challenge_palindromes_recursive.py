@@ -1,3 +1,11 @@
+# Desafio 03: Desenvolva uma função que recebe uma string de parâmetro e verifica, retornando um valor booleano, se a string é um palíndromo, respeitando as seguintes regras:
+# - O algoritmo deve ser feito usando uma solução recursiva
+# - Caso seja passada uma string vazia, retorne False
+# Challenge 03: Develop a function that takes a string as a parameter and checks, returning a boolean, if the string is a palindrome, following the conditions:
+# - The algoritm must use a recursive solution
+# - If the string is empty, return False
+
+
 def is_palindrome_recursive(word, low_index, high_index):
     if word == "":
         return False
