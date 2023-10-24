@@ -26,11 +26,6 @@ Este projeto consiste em uma coleção de desafios de programação resolvidos u
 
 <hr>
 
-## 🖼️ Screenshots
-<div style="display:flex;">
-  <img src="./screenshots/screenshot-01.png" alt="Pixels Art screenshot" height="450" width="275" />
-</div>
-
 ## 🛠️ Technologies used/Tecnologias utilizadas
 ### Programming languages/Linguagens de programação:
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)]()
